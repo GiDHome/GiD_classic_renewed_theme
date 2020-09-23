@@ -1,0 +1,20 @@
+<!-- -*- coding: utf-8; -*- -->
+<InfoTheme version="1.0">
+  <Program>
+    <Name>GiD classic renewed</Name>
+    <Version>0.8</Version>
+    <MinimumGiDVersion>15.0</MinimumGiDVersion>
+    <Description>GiD classic theme with some renewed icons</Description>
+    <NewsInVersion version="0.8" date="2020-06-29">
+      * 0.8: gid 15 icons updated
+      * 0.7: some more icons updated
+      * 0.6: some more icons updated
+      * 0.5: some more icons, updated to new preferences system
+      * 0.4: updated some more icons
+      * 0.3: updated some more icons and added size_64 icons (Super large)
+      * 0.2: added clone and remoteFolder icons
+      * First version: some renewed icons and different icons sizes:
+           small (16 pixels), medium (24 pixels) and large (32 pixels)
+    </NewsInVersion>
+  </Program>
+</InfoTheme>

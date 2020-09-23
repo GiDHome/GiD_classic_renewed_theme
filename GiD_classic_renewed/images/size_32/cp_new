@@ -1,0 +1,39 @@
+cp /tmp/new_icons/32/document-new.png new.png
+cp /tmp/new_icons/32/document-open.png openFile.png
+cp /tmp/new_icons/32/document-print.png print.png
+cp /tmp/new_icons/32/document-save.png save.png
+cp /tmp/new_icons/32/document-save-as.png saveas.png
+cp /tmp/new_icons/32/document-multiple.png openMultiple.png
+cp /tmp/new_icons/32/document-revert.png reload.png
+cp /tmp/new_icons/32/document.png file.png
+cp /tmp/new_icons/32/edit-delete.png erase-cross.png
+cp /tmp/new_icons/32/folder-pictures.png camera.png
+cp /tmp/new_icons/32/folder-new.png newfolder.png
+cp /tmp/new_icons/32/go-up.png upfolder.png
+cp /tmp/new_icons/32/go-home.png home.png
+cp /tmp/new_icons/32/preferences-other.png prefs.png
+cp /tmp/new_icons/32/zoom-in.png zoomin.png
+cp /tmp/new_icons/32/zoom-out.png zoomout.png
+cp /tmp/new_icons/32/zoom-next.png viewnext.png
+cp /tmp/new_icons/32/zoom-previous.png viewprev.png
+cp /tmp/new_icons/32/zoom-select.png viewlist.png
+cp /tmp/new_icons/32/zoom-fit-best.png zframe.png
+cp /tmp/new_icons/32/edit-copy.png copy.png
+cp /tmp/new_icons/32/help-browser.png help.png
+cp /tmp/new_icons/32/view-refresh.png redraw.png
+cp /tmp/new_icons/32/application-exit.png exit.png
+cp /tmp/new_icons/32/format-list-unordered.png list.png
+cp /tmp/new_icons/32/document-open-folder.png folder.png
+cp /tmp/new_icons/32/media-playback-start.png play.png
+cp /tmp/new_icons/32/media-playback-stop.png stop.png
+cp /tmp/new_icons/32/media-playback-pause.png pause.png
+cp /tmp/new_icons/32/media-seek-backward.png rewind.png
+cp /tmp/new_icons/32/media-skip-forward.png skipforward.png
+cp /tmp/new_icons/32/drive-harddisk.png disk.png
+echo convert original.png -adaptive-resize 64x64 new.png
+echo layer icon from http://www.iconarchive.com/show/small-n-flat-icons-by-paomedia/layers-icon.html 1238  scp Barcelona_fullmodel_16m_20M_ascii.pts.gz Barcelona_fullmodel_8m_100M_ascii.pts.gz miguel@altillo:/home/miguel/GID-git/SearchLab/cases/big/
+ 2102  cp 16x16/actions/document-edit.png ~/GID-git/gidproject/themes/GiD_classic_renewed/images/size_16/edit_file.png 
+ 2106  cp 16x16/actions/edit-rename.png ~/GID-git/gidproject/themes/GiD_classic_renewed/images/size_16/rename.png 
+ 2120  cp ./16x16/actions/story-editor.png ~/GID-git/gidproject/themes/GiD_classic_renewed/images/size_16/
+ 2234  cp 16/media-record.png ~/GID-git/gidproject/themes/GiD_classic_renewed/images/size_16/Record.png 
+ 2235  cp 16/media-playback-stop.png ~/GID-git/gidproject/themes/GiD_classic_renewed/images/size_16/EndRecord.png 

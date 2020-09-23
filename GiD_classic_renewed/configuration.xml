@@ -1,0 +1,97 @@
+<GID_THEME name="GiD_classic_renewed">
+  <!-- theme name is the same as its folder name -->
+  <info>images folder is always "GiD/themes/(name of theme)/images/"
+        cursors folder is always "GiD/themes/(name of theme)/cursors/"
+	if it does not find a folder it will use the alternative definition
+	size folder start inside "images" theme folder
+        alternative folder start from "GiD/themes/" folder
+  </info>
+  <label>GiD Classic Renewed</label>
+  <version>0.8</version>
+  <alternative_theme>GiD_classic</alternative_theme>
+
+  <SizeDefinitions>
+    <SizeDefinition name='small_size'>
+      <label>size 16</label>
+      <folder>size_16</folder>
+      <alternative_folder>GiD_classic/images/small_size(16andmore)</alternative_folder>
+    </SizeDefinition>
+
+    <SizeDefinition name='medium_size'>
+      <label>size 24</label>
+      <folder>size_24</folder>
+      <alternative_folder>GiD_classic/images/large_size(24andmore)</alternative_folder>
+    </SizeDefinition>
+
+    <SizeDefinition name='large_size'>
+      <label>size 32</label>
+      <folder>size_32</folder>
+      <alternative_folder>GiD_classic/images/large_size(24andmore)</alternative_folder>
+    </SizeDefinition>
+    <SizeDefinition name='super_large_size'>
+      <label>size 64</label>
+      <folder>size_64</folder>
+      <alternative_folder>GiD_classic/images/large_size(24andmore)</alternative_folder>
+    </SizeDefinition>
+  </SizeDefinitions>
+
+  <IconCategories>
+    <menu>small_size</menu>
+    <toolbar>small_size</toolbar>
+    <small_icons>small_size</small_icons>
+    <large_icons>medium_size</large_icons>
+  </IconCategories>
+  <ThemeSizes>
+    <ThemeSize size='-1'>
+      <IconCategory name='menu'>small_size</IconCategory>
+      <IconCategory name='toolbar'>small_size</IconCategory>
+      <IconCategory name='small_icons'>small_size</IconCategory>
+      <IconCategory name='large_icons'>small_size</IconCategory>
+    </ThemeSize>
+    <ThemeSize size='0'>
+      <IconCategory name='menu'>small_size</IconCategory>
+      <IconCategory name='toolbar'>medium_size</IconCategory>
+      <IconCategory name='small_icons'>small_size</IconCategory>
+      <IconCategory name='large_icons'>medium_size</IconCategory>
+    </ThemeSize>
+    <ThemeSize size='+1'>
+      <IconCategory name='menu'>medium_size</IconCategory>
+      <IconCategory name='toolbar'>large_size</IconCategory>
+      <IconCategory name='small_icons'>small_size</IconCategory>
+      <IconCategory name='large_icons'>large_size</IconCategory>
+    </ThemeSize>
+    <ThemeSize size='+2'>
+      <IconCategory name='menu'>large_size</IconCategory>
+      <IconCategory name='toolbar'>super_large_size</IconCategory>
+      <IconCategory name='small_icons'>medium_size</IconCategory>
+      <IconCategory name='large_icons'>super_large_size</IconCategory>
+    </ThemeSize>
+  </ThemeSizes>
+  
+  <OnlyDefineColorsOnMainGiDFrame>false</OnlyDefineColorsOnMainGiDFrame>
+  <TtkTheme>clammod_light_2</TtkTheme><!-- defined in $GID/scripts/gid_themes/ttk_themes/clammod_light_2.tcl -->
+  <TkFromTheme>true</TkFromTheme>
+  <!--
+  <OnlyDefineColorsOnMainGiDFrame>true</OnlyDefineColorsOnMainGiDFrame>
+  <TtkTheme>classicgid</TtkTheme>
+  <TkFromTheme>false</TkFromTheme>
+  -->
+
+  <TypeMenu>native</TypeMenu>
+  <PaddingWidgets>2</PaddingWidgets>
+  
+  <BackgroundColor>#ffffff</BackgroundColor>
+  <BackColorType>0</BackColorType>
+  <BackColorTop>#ffffff</BackColorTop>
+  <BackColorBottom>#323c4b</BackColorBottom>
+  <BackColorSense>dr</BackColorSense>
+
+  <ColorPoints>#000000</ColorPoints>
+  <ColorNodes>#000000</ColorNodes>
+  <ColorLines>#5b5ee1</ColorLines>
+  <ColorPolyLines>#008f27</ColorPolyLines>
+  <ColorSurfaces>#da24dc</ColorSurfaces>
+  <ColorSurfsIsoparametric>#dcda24</ColorSurfsIsoparametric>
+  <ColorVolumes>#56d9d8</ColorVolumes>
+  <ColorElements>#00a42e</ColorElements>
+</GID_THEME>
